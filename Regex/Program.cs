@@ -10,8 +10,12 @@ namespace RegexValidation
             //Pattern pattern = new Pattern();
             //Console.WriteLine(pattern.ValidateName("Abhishek"));
 
-            LastName lastName = new LastName();
-            Console.WriteLine(lastName.ValidateLastName("Narwariya"));
+            //LastName lastName = new LastName();
+            //Console.WriteLine(lastName.ValidateLastName("Narwariya"));
+
+            Email email = new Email();
+            Console.WriteLine(email.IsValidMail("abhisheknarwariya813@gmail.com"));
+
         }
 
 
