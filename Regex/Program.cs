@@ -13,8 +13,11 @@ namespace RegexValidation
             //LastName lastName = new LastName();
             //Console.WriteLine(lastName.ValidateLastName("Narwariya"));
 
-            Email email = new Email();
-            Console.WriteLine(email.IsValidMail("abhisheknarwariya813@gmail.com"));
+            //Email email = new Email();
+            //Console.WriteLine(email.IsValidMail("abhisheknarwariya813@gmail.com"));
+
+            ValidMobile validMobile = new ValidMobile();
+            Console.WriteLine(validMobile.ValidateMobileNo("91 8574657890"));
 
         }
 
