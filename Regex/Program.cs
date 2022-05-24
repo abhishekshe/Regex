@@ -7,8 +7,11 @@ namespace RegexValidation
     {
         static void Main(string[] args)
         {
-            Pattern pattern = new Pattern();
-            Console.WriteLine(pattern.ValidateName("Abhishek"));
+            //Pattern pattern = new Pattern();
+            //Console.WriteLine(pattern.ValidateName("Abhishek"));
+
+            LastName lastName = new LastName();
+            Console.WriteLine(lastName.ValidateLastName("Narwariya"));
         }
 
 

@@ -6,11 +6,11 @@ namespace RegexValidation
 {
     public class Pattern
     {
-        public static string ValidLastName = "^[A-Z][a-z]{3,}";
+        public static string ValidName = "^[A-Z][a-z]{3,}";
 
         public bool ValidateName(string Name)
         {
-            return Regex.IsMatch(Name, ValidLastName);
+            return Regex.IsMatch(Name, ValidName);
         }
     }
 }
