@@ -1,22 +1,16 @@
-﻿using System;
+﻿using RegexValidation;
+using System;
 
-namespace ValidateEmail
+namespace RegexValidation
 {
     class Program
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                Console.WriteLine("Please write an email to validate");
-                string sample = Console.ReadLine();
-                validateEmail validateEmail = new validateEmail();
-                if (sample == "")
-                    break;
-
-
-                Console.WriteLine(validateEmail.IsValidMail(sample));
-            }
+            Pattern pattern = new Pattern();
+            Console.WriteLine(pattern.ValidateName("Abhishek"));
         }
+
+
     }
 }
